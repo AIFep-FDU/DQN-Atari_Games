@@ -12,19 +12,15 @@ The Deep Q-Network is a deep reinforcement learning algorithm that extends Q-lea
 
 The Atari 2600, a popular home video game console in the late 1970s and early 1980s, featured a diverse collection of games. These games serve as a benchmark for testing the capabilities of reinforcement learning algorithms. Each game in the Atari 2600 suite provides a unique environment with different challenges, making them an ideal testbed for training agents to generalize across a variety of tasks.
 
-## Table of Contents
+## 任务说明
 
-- [Introduction](#introduction)
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Training](#training)
-- [Evaluation](#evaluation)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+- 参考README.md文件配置运行环境
+- 参考课程PPT完成`dqn_atari.py`中`QNetwork`模块代码
+- 参考`train.sh`文件执行训练，提交最后一次
+
+## 提交说明
+
+提交一份实验报告，提交修改后的`dqn_atari.py`文件以及生成的最后一次吃豆人游戏视频。
 
 ## Getting Started
 
@@ -41,7 +37,7 @@ To run this project, you will need the following:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/adhiiisetiawan/atari-dqn.git
+git clone https://github.com/AIFep-FDU/DQN-Atari_Games.git
 ```
 
 2. Install the required dependencies:
