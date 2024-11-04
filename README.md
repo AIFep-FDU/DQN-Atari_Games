@@ -56,7 +56,11 @@ To train and evaluate the DQN agent, follow the steps outlined below:
 
 ```bash
 sh train.sh
-```
+```  
+or
+```  
+python3 dqn_atari.py --exp-name MsPacman-v5 --capture-video --env-id ALE/MsPacman-v5 --total-timesteps 5000000 --buffer-size 400000 --hf-entity adhisetiawan
+```  
 
 If you want to change the game that you train, please edit the game environment name in `train.sh` file.
 
